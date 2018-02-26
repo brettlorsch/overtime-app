@@ -41,7 +41,7 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
-  gem 'factory_girl_rails', '~> 4.9'
+  gem 'factory_bot_rails'
 end
 
 group :development do
@@ -59,3 +59,5 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'gritter', '~> 1.2'
+gem 'administrate', '~> 0.9.0'
+gem 'bourbon'
