@@ -64,3 +64,4 @@ gem 'bourbon'
 gem 'pundit', '~> 1.1'
 gem 'twilio-ruby', '~> 5.7'
 gem 'dotenv-rails' , :groups => [:development, :test]
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
